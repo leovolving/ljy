@@ -1,0 +1,24 @@
+{
+  "name": "ljy",
+  "version": "0.0.0",
+  "description": "Personal recylcing bin of JS modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ljyockey/ljy.git"
+  },
+  "author": "Leo J. Yockey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ljyockey/ljy/issues"
+  },
+  "homepage": "https://github.com/Ljyockey/ljy#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.27",
+    "request-promise-native": "^1.0.8",
+    "xml2js": "^0.4.23"
+  }
+}
