@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "node lib/puppeteer/index.js",
     "tmt": "node -r dotenv/config lib/twitter-media-uploader/test-run.js"
   },
   "repository": {
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/Ljyockey/ljy#readme",
   "dependencies": {
+    "chrome-aws-lambda": "^2.1.1",
     "dotenv": "^8.2.0",
     "moment-timezone": "^0.5.27",
+    "puppeteer-core": "^2.1.1",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
     "xml2js": "^0.4.23"
