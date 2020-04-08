@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "c": "node -r dotenv/config lib/puppeteer/captcha.js",
     "p": "node lib/puppeteer/index.js",
     "tmt": "node -r dotenv/config lib/twitter-media-uploader/test-run.js"
   },
@@ -22,6 +23,7 @@
     "chrome-aws-lambda": "^2.1.1",
     "dotenv": "^8.2.0",
     "moment-timezone": "^0.5.27",
+    "promise-poller": "^1.9.1",
     "puppeteer": "^2.1.1",
     "puppeteer-core": "^2.1.1",
     "request": "^2.88.2",
