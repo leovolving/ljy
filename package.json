@@ -22,7 +22,7 @@
   "dependencies": {
     "chrome-aws-lambda": "^2.1.1",
     "dotenv": "^8.2.0",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.35",
     "promise-poller": "^1.9.1",
     "puppeteer": "^2.1.1",
     "puppeteer-core": "^2.1.1",
